@@ -66,7 +66,9 @@ body {
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
-
+#derechos{
+  text-align: center;
+}
 hr {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
@@ -173,10 +175,17 @@ pre {
 figure {
   margin: 0 0 1rem; }
 
+#logo { 
+  position: relative;
+  right: 85%
+}
+#acerca{
+  text-align: justify;
+}
+
 img {
   text-align: right;
-  border-style: none; }
-
+  border-style: none;  } 
 svg:not(:root) {
   overflow: hidden; }
 
@@ -8822,7 +8831,9 @@ textarea.form-control {
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: .1em; }
-
+#coment1 #coment2 #coment3 #coment4 #coment5{
+  text-align: justify;
+}   
 .ftco-menu {
   position: relative;
   width: 100%;
