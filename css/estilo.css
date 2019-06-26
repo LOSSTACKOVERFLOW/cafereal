@@ -63,3 +63,32 @@
     margin-left: -300%;
   }
 }
+
+.column {
+  float: left;
+  width: 33.33%;
+  text-align: justify;
+}
+
+.column h2{
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column p,ul{
+  padding:5px;
+  margin:40px;
+}
+
+.Content
+{
+  height:224px;
+   overflow:auto;
+    background:#fff;
+}
