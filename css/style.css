@@ -6767,7 +6767,7 @@ button.bg-dark:focus {
     margin: 1.5rem !important; }
   .mt-lg-4,
   .my-lg-4 {
-    margin-top: 1.5rem !important; }
+    margin-top: 0rem !important; }
   .mr-lg-4,
   .mx-lg-4 {
     margin-right: 1.5rem !important; }
@@ -7604,8 +7604,8 @@ h1, h2, h3, h4, h5,
             text-align: center; } }
         .owl-carousel.home-slider .slider-item .slider-text .subheading {
           font-family: "Great Vibes", cursive;
-          font-size: 30px;
-          color: #c49b63; }
+          font-size: 60px;
+          color: #91760A; }
         .owl-carousel.home-slider .slider-item .slider-text h1 {
           text-transform: uppercase;
           font-size: 40px;
@@ -8493,7 +8493,6 @@ textarea.form-control {
 .ftco-section .ftco-primary-title {
   margin-top: 0;
   margin-bottom: 30px; }
-
 .about-author .desc h3 {
   font-size: 24px; }
 
