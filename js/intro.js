@@ -2529,3 +2529,14 @@
 
   return introJs;
 });
+function startIntro(){
+  intro = introJs();
+  intro.setOptions({
+    nextLabel: '>', 
+    prevLabel: '<', 
+    skipLabel: 'Salir', 
+    doneLabel: 'Hecho'
+  });
+  intro.start();
+}
+startIntro();
