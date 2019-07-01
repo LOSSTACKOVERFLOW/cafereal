@@ -174,11 +174,11 @@ pre {
 
 figure {
   margin: 0 0 1rem; }
-
-#logo { 
+@media only screen and (min-width: 768px) {
+#logo  { 
   position: relative;
   right: 85%
-}
+}}
 #acerca{
   text-align: justify;
 }
