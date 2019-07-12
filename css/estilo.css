@@ -92,3 +92,11 @@
    overflow:auto;
     background:#fff;
 }
+
+h4{
+  display: none;
+}
+
+#buscador,#boton{
+  background-color: #c49b63;
+}
